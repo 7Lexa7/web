@@ -1,0 +1,52 @@
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99.91%;
+    background: rgba(65, 157, 255, 0.726);
+    height: 100px;
+    margin-bottom: 40px;
+    border-radius: 0 0 12px 12px;
+    border: 1px solid #ccc;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+nav h1 {
+    width: 80%;
+    margin-left: 48px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 12%;
+}
+
+ul li {
+    width: 50%;
+    transition: .2s all;
+}
+
+.category {
+    margin-top: 7px;
+    width: 36px;
+}
+
+.cart {
+    width: 49px;
+}
+
+ul li img{
+    width: 100%;
+}
+
+.nav ul li:hover {
+    transform: scale(1.1);
+}
